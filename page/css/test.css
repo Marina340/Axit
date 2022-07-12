@@ -1,0 +1,444 @@
+/*Reset style*/
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+hr{
+    width: 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1,h2,h3,p{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+}
+/*globel style*/
+.clear{
+    clear: both;
+}
+.container{
+width: 80%;
+margin: auto;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 100%;
+    box-sizing: border-box;
+}
+/*custom style*/
+.navbar{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    display: block;
+    top: 0;
+   z-index: 1;
+}
+.navbar ul{
+    float: right;
+}
+.navbar li{
+    float: left;
+    color: white;
+    list-style:none;
+    margin-right: 20px;
+}
+.navbar a{
+    font-size:large;
+    font-weight:bolder;
+    padding-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.section1{
+   height:650px;
+   background-image: url("../css/R.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+.contant1 .boldword{
+    font-size: 80px;
+    color: white;
+}
+.section1 .contant1 h1{
+    font-size:xx-large;
+    color: white;
+}
+.section1 .contant1 p{
+
+    font-size: larger;
+    color: grey;
+}
+.contant1{
+    box-sizing: border-box;
+    width: 45%;
+    float: left;
+    margin-top: 7%;
+}
+.contant1 span{
+    color: rgb(255,139,56);
+}
+.but{
+    padding: 10px;
+    margin-top: 20px;
+    color:white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+}
+.contant2{
+    background-color: white;
+    float: right;
+    width: 30%;
+    margin-top: 10%;
+    border-radius: 5px;
+
+}
+input{
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: gray;
+    border-bottom:1px solid rgb(204, 203, 203) ;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+}
+
+.contant2 h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color:rgb(245,245,245);
+}
+.contant2 span{
+    color: rgb(255,139,56);
+}
+.contant2 button{
+    width: 100%;
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(255,139,56);
+    color: white;
+    margin-top: 30px;
+    border: none;
+}
+.section2{
+    width: 100%;
+    box-sizing: border-box;
+}
+.content1_section2{
+    padding-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+}
+.fortext{
+    float: left;
+}
+.content2_section2{
+    background-color: rgb(245,245,245);
+    box-sizing: border-box;
+    width: 100%;
+    padding-top:10% ;
+}
+.content2_section2_part0 ul{
+float: left;
+width:10%;
+
+}
+.content2_section2_part0 div p{
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background-color:rgb(60,60,58);
+}
+.content2_section2_part0 .destt{
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background-color:rgb(255,139,56);
+}
+.dest{
+    background-color:rgb(255,139,56);
+    color: white;
+}
+.forIcons{
+    float:right;
+    margin-bottom: 10%;
+ }
+ .forIcons i{
+     padding: 10px;
+     color: grey;
+     font-size:xx-large;
+ }
+.content2_section2_part1{
+width: 40%;
+box-sizing: border-box;
+margin-left: 3%;
+float: left;
+font-size:large;
+}
+.content2_section2_part1 button{
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(255,139,56);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.content2_section2_part2{
+    box-sizing: border-box;
+    float: right;
+    width:25%;
+}
+#reflect {
+    width:100%;
+    -webkit-box-reflect: below 0 linear-gradient(transparent,rgba(12, 12, 12, 0.342));
+}
+.section3{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 100px;
+}
+.section3_part1{
+    float: left;
+    width: 40%;
+    box-shadow: 6px 6px 40px 8px grey;
+}
+.section3_part1 img{
+    width: 100%;
+}
+.section3_part2{
+float: right;
+width:50%;
+}
+.section3_part2 h3{
+    display: inline;
+}
+
+.section3_part2 i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(255,139,56);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2;
+    color: rgb(255,139,56);
+    float: left;
+    margin-right: 20px;
+}
+.section3_part2 .pop{
+    width: 50%;
+   display: inline-block;
+}
+.section3_part2 .part{
+    box-sizing: border-box;
+    width:100%;
+    margin-top: 50px;
+}
+.section4{
+    margin-top: 10%;
+    background-color:rgb(245,245,245);
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+.section4_part1{
+    width:50%;
+    font-size: large;
+    float: left;
+    box-sizing: border-box;
+}
+.desthr{
+    border: 0.1px solid rgb(255,139,56);
+    margin-bottom: 10px;
+}
+.section4_part2{
+    width:40%;
+    float: right;
+    box-sizing: border-box;
+    padding-bottom: 10%;
+}
+.section4_part2 img{
+    width: 100%;
+    margin-left: 10%;
+    box-shadow: 6px 6px 40px 8px grey;
+}
+.section5_part1{
+    text-align: center;
+    padding-top: 10%;
+    font-size: x-large;
+}
+.section5_part1 hr{
+    border: 0.1px solid rgb(255,139,56);
+    width:50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section5_part2{
+    text-align: center;
+}
+.section5_part2 div{
+    width:32%;
+display: inline-block;
+box-sizing: border-box;
+margin-top: 50px;
+padding-bottom: 10%;
+}
+.section5_part2 i{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(255,139,56);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3;
+    color: rgb(255,139,56);
+    font-size:large;
+}
+.section6{
+background-color:rgb(245,245,245);
+box-sizing: border-box;
+}
+.section6_part2 .divv{
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 20px;
+    padding-bottom: 10%;
+}
+sup{
+    font-size:50px;
+}
+.div1{
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.div2{
+    background-color: black;
+    color: white;
+    border-bottom: 4px solid rgb(255,139,56);
+    padding: 30px;
+}
+.div3{
+    background-color: white;
+}
+.div3 p{
+    border-bottom: 1px solid rgb(245,245,245);
+}
+.section6_part2{
+    text-align: center;
+}
+.section6_part2 .content7{
+width:25%;
+display: inline-block;
+box-sizing: border-box;
+margin-top: 50px;
+padding-bottom: 10%;
+margin: 35px;
+
+}
+.sec7{
+    background-color: rgb(245,245,245);
+    padding: 20px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.triangle{
+    width: 0%;
+    border-top: 20px solid rgb(245, 245, 245) ;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin-left: 20px;
+}
+.section6_part2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.sec7p1{
+    float: left;
+}
+.section8{
+    background-image: url("../css/download\ \(4\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ 
+}
+.sec8_part1{
+    padding-top: 50px;
+text-align: center;
+color: white;
+padding-bottom: 50px;
+font-size: larger;
+}
+.sec8_part1 hr{
+    border: 0.1px solid gray;
+    width:50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sec9p1{
+    width: 40%;
+    float: left;
+}
+.sec9p2{
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.sec9p2 textarea{
+    height: 100%;
+    width:100% ;
+    border-bottom: 1px solid gray;
+    border-left:none ;
+    border-top: none;
+    border-right: none;
+    color:gray;
+}
+.btn{
+    text-align: center;
+    box-sizing: border-box;
+}
+.btn button{
+    padding: 15px;
+    background-color: rgb(255,139,56);
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+.sec10{
+    background-color: black;
+    box-sizing:border-box ;
+    padding: 15px;
+    margin-top: 5%;
+}
+.lastsec{
+    text-align: center;
+    color: gray;
+}
+.lastsec i{
+    font-size: x-large;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.lastsec span{
+    margin-right: 5px;
+}
